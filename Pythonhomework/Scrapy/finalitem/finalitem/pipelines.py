@@ -36,4 +36,4 @@ class FinalitemPipeline(object):
                                              item['businessZones']])
             self.conn1.commit()
         else:
-            self.table.put("rowkey:",{"base:name":'value'})#等待编辑字段！  很可能不用写。因为爬不了那么多
+            self.table.put("rowkey:",{"base:name":'value'})#等待编辑字段！  很可能不用写。因为爬不了那么多哈哈哈
