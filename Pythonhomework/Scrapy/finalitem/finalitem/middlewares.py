@@ -4,8 +4,11 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+import random
 
 from scrapy import signals
+
+from .settings import IPS, USER_AGENT
 
 
 class FinalitemSpiderMiddleware(object):
@@ -32,6 +35,7 @@ class FinalitemSpiderMiddleware(object):
         # it has processed the response.
 
         # Must return an iterable of Request, dict or Item objects.
+
         for i in result:
             yield i
 
@@ -71,6 +75,10 @@ class FinalitemDownloaderMiddleware(object):
     def process_request(self, request, spider):
         # Called for each request that goes through the downloader
         # middleware.
+
+        user_agent = {'User-Agent': random.choice(USER_AGENT)}
+        request.headers.update(user_agent)
+        request.meta['proxy'] = random.choice(IPS)
 
         # Must either:
         # - return None: continue processing this request
