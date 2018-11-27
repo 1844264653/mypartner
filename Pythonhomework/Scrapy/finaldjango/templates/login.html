@@ -25,13 +25,14 @@
 <div class="log">
     <div class="content1">
         <h2>Login</h2>
-        <form>
+        <form action="{% url 'indexs:login_logic' %}" method="post">
             <input type="text" name="userid" value="USERNAME" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'USERNAME';}">
             <input type="password" name="psw" value="PASSWORD" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'PASSWORD';}">
             <div class="button-row">
                 <input type="submit" class="sign-in" value="Sign In">
+                <a href="{% url 'indexs:regist' %}" class="sign-in">注 册</a>
                 <input type="reset" class="reset" value="Reset">
                 <div class="clear"></div>
             </div>

@@ -45,9 +45,9 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-# SPIDER_MIDDLEWARES = {
-#    'finalitem.middlewares.FinalitemSpiderMiddleware': 543,
-# }
+SPIDER_MIDDLEWARES = {
+    'finalitem.middlewares.FinalitemSpiderMiddleware': 543,
+}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
@@ -63,9 +63,9 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    'finalitem.pipelines.FinalitemPipeline': 300,
-# }
+ITEM_PIPELINES = {
+    'finalitem.pipelines.FinalitemPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -90,16 +90,16 @@ ROBOTSTXT_OBEY = False
 
 
 IPS = [
-    'http://119.183.121.126:8118',
-    'http://180.168.13.26:8000',
-    'https://118.181.226.22:37346',
-    'https://101.236.57.214:8866',
-    'https://121.228.49.232:3128',
-    'https://183.15.122.42:3128',
-    'https://222.94.147.198:808',
-    'https://183.45.88.109:61710',
-    'https://182.88.15.114:8123',
-    'https://115.223.85.244:8010',
+    'http://119.183.121.126:8118', 'http://219.238.186.188:8118', 'http://124.235.135.87:80',
+    'http://180.168.13.26:8000', 'https://58.62.238.150:32431', 'https://210.22.160.34:48513',
+    'https://118.181.226.22:37346', 'https://124.89.33.59:53281', 'https://221.1.200.242:38652',
+    'https://101.236.57.214:8866', 'https://101.94.6.110:8123', 'https://221.6.32.206:50925',
+    'https://121.228.49.232:3128', 'https://27.24.215.49:57248', 'https://115.231.5.230:44524',
+    'https://183.15.122.42:3128', 'https://117.21.191.154:32431', 'https://119.254.94.95:43150',
+    'https://222.94.147.198:808', 'http://118.178.227.171:80', 'https://221.234.250.30:8010',
+    'https://183.45.88.109:61710', 'https://36.110.14.66:50519', 'https://106.3.79.57:31662',
+    'https://182.88.15.114:8123', 'https://180.121.129.224:3128', 'https://113.200.27.10:53281',
+    'https://115.223.85.244:8010', 'https://111.72.154.38:53128',
     'https://61.170.179.89:50799',
     'https://180.110.5.254:3128',
     'https://171.37.159.233:8123',

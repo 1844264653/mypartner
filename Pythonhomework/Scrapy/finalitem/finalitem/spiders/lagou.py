@@ -7,7 +7,6 @@ import scrapy
 from ..items import FinalitemItem
 from ..settings import IPS
 
-req_count = 0
 
 
 class LagouSpider(scrapy.Spider):
@@ -40,7 +39,6 @@ class LagouSpider(scrapy.Spider):
                 yield scrapy.FormRequest(url=url, formdata=formdata, headers=headers)
 
     def parse(self, response):
-        global req_count
         data = json.loads(response.text)
         item = FinalitemItem()
         print(data['content']['positionResult']['result'])  # 字典列表
@@ -61,8 +59,7 @@ class LagouSpider(scrapy.Spider):
                     businessZones = businessZones + area
             except:
                 businessZones = '还没做好呢'
-            finally:
-                req_count += 1
+
             # print(locals())
 
             item['positionName'] = detailinfo['positionName']
