@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ops-coffee</title>
+    <style>
+        div{
+            margin-left: 15%;
+        }
+    </style>
+    <!-- 引入 echarts.js -->
+    <script src="/static/echarts/jquery-1.7.2.js"></script>
+    <script src="/static/echarts/echarts.js"></script>
+    <script src="/static/echarts/china.js"></script>
+</head>
+<body>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="bar" style="height:400px;"></div>
+<div id="bin" style="width: 600px;height:400px;"></div>
+<div id="maps" style="width: 800px;height:533px;"></div>
+<script type="text/javascript">
+    function randomValue() {
+        return Math.round(Math.random() * 1000);
+    }
+
+    // 基于准备好的dom，初始化echarts实例
+    var myChart_bar = echarts.init(document.getElementById('bar'));
+    var myChart_bin = echarts.init(document.getElementById('bin'));
+    var myChart_maps = echarts.init(document.getElementById('maps'));
+
+
+    $.ajax({
+        type: "get",
+        url: "/indexs/api/echarts",
+        dataType: "json",
+        success: function (data) {
+
+            // 指定图表的配置项和数据
+            var option = {
+                title: {
+                    left: 'center',
+                    text: '城市职位数据柱状图'
+                },
+                tooltip: {},
+                xAxis: {
+                    data: data.key
+                },
+                yAxis: {},
+                series: [{
+                    name: '数据',
+                    type: 'bar',
+                    data: data.value
+                }]
+            };
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart_bar.setOption(option);
+        },
+        error: function () {
+            alert('Error: ajax 请求出错！')
+        }
+    });
+
+
+    $.ajax({
+        type: "get",
+        url: "/indexs/api/echarts1",
+        dataType: "json",
+        success: function (data) {
+
+            // 指定图表的配置项和数据
+            var option = {
+                backgroundColor: '#2c343c',
+
+                title: {
+                    text: 'Customized Pie',
+                    left: 'center',
+                    top: 20,
+                    textStyle: {
+                        color: '#ccc'
+                    }
+                },
+
+                tooltip: {
+                    trigger: 'item',
+                    formatter: "{a} <br/>{b} : {c} ({d}%)"
+                },
+
+                visualMap: {
+                    show: false,
+                    min: 80,
+                    max: 600,
+                    inRange: {
+                        colorLightness: [0, 1]
+                    }
+                },
+                series: [
+                    {
+                        name: '数量',
+                        type: 'pie',
+                        radius: '55%',
+                        center: ['50%', '50%'],
+                        data: [
+                            {value: data.value[0], name: data.key[0]},
+                            {value: data.value[1], name: data.key[1]},
+                            {value: data.value[2], name: data.key[2]},
+                            {value: data.value[3], name: data.key[3]},
+                            {#{value: 310, name: '爬虫'},#}
+                            {#{value: 274, name: '大数据'},#}
+                            {#{value: 235, name: 'AI'}#}
+                        ].sort(function (a, b) {
+                            return a.value - b.value;
+                        }),
+                        roseType: 'radius',
+                        label: {
+                            normal: {
+                                textStyle: {
+                                    color: 'rgba(255, 255, 255, 0.3)'
+                                }
+                            }
+                        },
+                        labelLine: {
+                            normal: {
+                                lineStyle: {
+                                    color: 'rgba(255, 255, 255, 0.3)'
+                                },
+                                smooth: 0.2,
+                                length: 10,
+                                length2: 20
+                            }
+                        },
+                        itemStyle: {
+                            normal: {
+                                color: '#FF6600',
+                                shadowBlur: 200,
+                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            }
+                        },
+
+                        animationType: 'scale',
+                        animationEasing: 'elasticOut',
+                        animationDelay: function (idx) {
+                            return Math.random() * 200;
+                        }
+                    }
+                ]
+            };
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart_bin.setOption(option);
+        },
+        error: function () {
+            alert('Error: ajax 请求出错！')
+        }
+    });
+
+
+    $.ajax({
+        type: "get",
+        url: "/indexs/api/echarts2",
+        dataType: "json",
+        success: function (data) {
+
+            // 指定图表的配置项和数据
+            myChart_maps.setOption({
+
+                tooltip: {},
+                series: [{
+                    name: '数量',
+                    type: 'map',
+                    map: 'china',
+                    data: [
+                        {name: data.key, value: data.value},
+                        {name: '北京', value: randomValue()},
+                        {name: '天津', value: randomValue()},
+                        {name: '上海', value: randomValue()},
+                        {name: '重庆', value: randomValue()},
+                        {name: '河北', value: randomValue()},
+                        {name: '河南', value: randomValue()},
+                        {name: '云南', value: randomValue()},
+                        {name: '辽宁', value: randomValue()},
+                        {name: '黑龙江', value: randomValue()},
+                        {name: '湖南', value: randomValue()},
+                        {name: '安徽', value: randomValue()},
+                        {name: '山东', value: randomValue()},
+                        {name: '新疆', value: randomValue()},
+                        {name: '江苏', value: randomValue()},
+                        {name: '浙江', value: randomValue()},
+                        {name: '江西', value: randomValue()},
+                        {name: '湖北', value: randomValue()},
+                        {name: '广西', value: randomValue()},
+                        {name: '甘肃', value: randomValue()},
+                        {name: '山西', value: randomValue()},
+                        {name: '内蒙古', value: randomValue()},
+                        {name: '陕西', value: randomValue()},
+                        {name: '吉林', value: randomValue()},
+                        {name: '福建', value: randomValue()},
+                        {name: '贵州', value: randomValue()},
+                        {name: '广东', value: randomValue()},
+                        {name: '青海', value: randomValue()},
+                        {name: '西藏', value: randomValue()},
+                        {name: '四川', value: randomValue()},
+                        {name: '宁夏', value: randomValue()},
+                        {name: '海南', value: randomValue()},
+                        {name: '台湾', value: randomValue()},
+                        {name: '香港', value: randomValue()},
+                        {name: '澳门', value: randomValue()}
+                    ]
+                }]
+            });
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart_maps.setOption(option);
+        },
+        error: function () {
+            alert('Error: ajax 请求出错！')
+        }
+    });
+
+
+</script>
+</body>
+</html>
