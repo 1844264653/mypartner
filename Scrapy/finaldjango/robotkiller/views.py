@@ -11,7 +11,7 @@ from django.utils import timezone
 from .models import RobotKiller
 
 # red = Redis(host='192.168.127.11',port=8000)
-pool = redis.ConnectionPool(host='192.168.127.11', port=7000, db=0, decode_responses=True)  # 选择直接输出 str
+pool = redis.ConnectionPool(host='192.168.43.9', port=7000, db=0, decode_responses=True)  # 选择直接输出 str
 red = redis.StrictRedis(connection_pool=pool)
 
 max_visits = 60

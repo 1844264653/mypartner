@@ -11,7 +11,7 @@ import json
 import redis
 import requests
 
-pool = redis.ConnectionPool(host='192.168.127.11', port=7000, db=0, decode_responses=True)  # 选择直接输出 str
+pool = redis.ConnectionPool(host='192.168.43.9', port=7000, db=0, decode_responses=True)  # 选择直接输出 str
 red = redis.StrictRedis(connection_pool=pool)
 
 
@@ -40,22 +40,51 @@ def get_ip_addr(user_ip):
     return {'location': location}
 
 
-
-
 def outer(func):
     print('+++++++++++++')
+
     def my_decorate(user_ip='', city='', job='', numpage='', location=''):
         # 获得信息存入 redis
-        red.set('user_ip'+user_ip,user_ip)
-        red.set('city'+city,city)
-        red.set('job'+job,job)
-        red.set('numpage'+numpage,numpage)
-        red.set('location'+location,location)
+        try:
+            red.set('user_ip' + user_ip, user_ip)
+            print(user_ip)
+        except:
+            pass
+        try:
+            red.set('city' + city, city)
+            print(city)
+        except:
+            pass
+        try:
+            red.set('job' + job, job)
+            print(job)
+        except:
+            pass
+        try:
+            red.set('numpage' + numpage, numpage)
+            print(numpage)
+        except:
+            pass
+        try:
+            red.set('location' + location, location)
+            print(location)
+        except:
+            pass
         return func()
+
     return my_decorate
 
+
 @outer
-def get_params(user_ip='', city='', job='', numpage='', location=''):
-    pass
-
-
+def get_params(user_ip, city, job, numpage, location):
+    red.set('user_ip' + user_ip, user_ip)
+    print(user_ip)
+    red.set('city' + city, city)
+    print(city)
+    red.set('job' + job, job)
+    print(job)
+    red.set('numpage' + numpage, numpage)
+    print(numpage)
+    red.set('location' + location, location)
+    print(location)
+    return

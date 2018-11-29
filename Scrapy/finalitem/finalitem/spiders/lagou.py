@@ -43,24 +43,24 @@ class LagouSpider(scrapy.Spider):
         item = FinalitemItem()
         print(data['content']['positionResult']['result'])  # 字典列表
         for detailinfo in data['content']['positionResult']['result']:
-            # positionName = detailinfo['positionName']  # 职位
-            # companyFullName = detailinfo['companyFullName']  # 公司名字
-            # salary = detailinfo['salary']  # 薪水
-            # jobNature = detailinfo['jobNature']  # 任职要求
-            # workYear = detailinfo['workYear']  # 经验要求
-            # education = detailinfo['education']  # 学历要求
-            # city = detailinfo['city']  # 城市
-            # positionAdvantage = detailinfo['positionAdvantage']  # 公司福利
-            # companySize = detailinfo['companySize']  # 公司规模
-            # district = detailinfo['district']  # 街区
-            businessZones = ''
-            try:
-                for area in detailinfo['businessZones']:
-                    businessZones = businessZones + area
-            except:
-                businessZones = '还没做好呢'
+            positionName = detailinfo['positionName']  # 职位
+            companyFullName = detailinfo['companyFullName']  # 公司名字
+            salary = detailinfo['salary']  # 薪水
+            jobNature = detailinfo['jobNature']  # 任职要求
+            workYear = detailinfo['workYear']  # 经验要求
+            education = detailinfo['education']  # 学历要求
+            city = detailinfo['city']  # 城市
+            positionAdvantage = detailinfo['positionAdvantage']  # 公司福利
+            companySize = detailinfo['companySize']  # 公司规模
+            district = detailinfo['district']  # 街区
+            # businessZones = ''
+            # try:
+            #     for area in detailinfo['businessZones']:
+            #         businessZones = businessZones + area
+            # except:
+            #     businessZones = '还没做好呢'
 
-            # print(locals())
+            print(positionName,companyFullName,salary,jobNature,workYear,education,city,positionAdvantage,companySize,district)
 
             item['positionName'] = detailinfo['positionName']
             item['companyFullName'] = detailinfo['companyFullName']
@@ -72,5 +72,5 @@ class LagouSpider(scrapy.Spider):
             item['positionAdvantage'] = detailinfo['positionAdvantage']
             item['companySize'] = detailinfo['companySize']
             item['district'] = detailinfo['district']
-            item['businessZones'] = detailinfo['businessZones']
+            # item['businessZones'] = detailinfo['businessZones']
             yield item

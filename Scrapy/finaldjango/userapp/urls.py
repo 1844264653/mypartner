@@ -1,17 +1,24 @@
 from django.urls import path
+from django.views.generic import TemplateView
+
 from . import views
 
 urlpatterns = [
-    # path("index/",views.index,name='index'),#二级命名
-    #     path('logout/', views.logout, name='logout') , # 登出功能
-    #     path("category/",views.booklist,name='category'),#二级命名
-    #     path('register/',views.register,name='register'),#二级命名
     path('checkIP/', views.checkIP, name='checkIP'),
-    path('regist/', views.regist, name='regist'),
+
+    path('regist/', TemplateView.as_view(template_name='register.html'), name='regist'),
+
     path('regist_logic/', views.regist_logic, name='regist_logic'),
-    path('login/', views.login, name='login'),
+
+    path('login/', TemplateView.as_view(template_name='login.html'), name='login'),
+
     path('login_logic/', views.ligin_logic, name='login_logic'),
     path('main/', views.main_page, name='main'),
     path('menu/', views.menu_page, name='menu'),
+
+    path('echarts/', TemplateView.as_view(template_name='echarts.html'), name='echarts-url'),
+    path('api/echarts/', views.show_tables, name='api-echarts'),
+    path('api/echarts1/', views.show_bin, name='api-echarts1'),
+    path('api/echarts2/', views.show_maps, name='api-echarts1'),
 
 ]

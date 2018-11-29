@@ -21,7 +21,7 @@ class FinalitemItem(scrapy.Item):
     positionAdvantage = scrapy.Field()  # 公司福利
     companySize = scrapy.Field()  # 公司规模
     district = scrapy.Field()  # 街区
-    businessZones = scrapy.Field()  #地址
+    # businessZones = scrapy.Field()  #地址
 
 
 
