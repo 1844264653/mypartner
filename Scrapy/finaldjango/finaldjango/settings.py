@@ -85,6 +85,16 @@ DATABASES = {
     }
 }
 
+CACHES = {
+      "default": {
+         "BACKEND": "django_redis.cache.RedisCache", #Redis缓存入口，其中使用DefaultClient操作缓存
+         "LOCATION": "redis://192.168.43.9:7000/3", #ip:port/db_index
+         "OPTIONS": {
+           "CLIENT_CLASS": "django_redis.client.DefaultClient" #操作缓存的对象
+         }
+      }
+}
+
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 

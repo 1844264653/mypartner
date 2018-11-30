@@ -7,6 +7,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect
 
 # Create your views here.
+from django.views.decorators.cache import cache_page
 from idna import unicode
 
 from robotkiller.models import RobotKiller
@@ -14,6 +15,7 @@ from robotkiller.views import filterIP
 from .models import Spider_user, ZPInfo
 from .ip_crawler import get_ip_addr, get_params
 from .hbase_data import get_hbase_data
+from django.core.cache import cache
 
 
 # red = Redis(host='192.168.127.11',port=8000)
@@ -102,6 +104,7 @@ def main_page(request):
 
 
 # 展示详情   需要分页
+@cache_page(timeout=10,key_prefix="cacheRedis")
 def menu_page(request):
     checkIP(request)  # 检测ip
     user_ip = request.META['REMOTE_ADDR']  # 获取请求的ip
@@ -130,7 +133,7 @@ def menu_page(request):
     except:
         pass
     if int(num) > 10:
-        get_hbase_data()
+        get_hbase_data(num=num)
         restdata = ZPInfo.objects.filter(pk__gt=count)
         zpxx = zpxx.extend(restdata)
         if not user:  ## 未登录 只能查看前十页的数据
@@ -177,13 +180,14 @@ def menu_page(request):
 #             record.time = timezone.now()
 #             record.save()
 
-
-def show_tables(request):
+@cache_page(timeout=10,key_prefix="cacheRedis")
+def show_tables(request): # bar
     """数据整理可视化异步"""
     # cityinfos = ZPInfo.objects.values_list('city').annotate(Count('id')).order_by('-id')
     citys = ZPInfo.objects.values_list('city').annotate(Count('city'))  # <QuerySet [('广州', 1131), ('北京', 5100), ('上海', 4100), ('深圳', 1128)]>
+    print(citys)
     citydata = {
-        'key': [i[0] for i in citys],
+        'key': [i[0] for i in citys],  #列表推导式
         'value': [i[1] for i in citys],
     }
 
@@ -191,7 +195,7 @@ def show_tables(request):
     # return JsonResponse(jsondata,safe=False)
     return JsonResponse(citydata)
 
-
+@cache_page(timeout=10,key_prefix="cacheRedis")
 def show_bin(request):
     jobs = ZPInfo.objects.values_list('positionName').annotate(Count('positionName'))
     jobdata = {
@@ -201,7 +205,7 @@ def show_bin(request):
     }
     return JsonResponse(jobdata)
 
-
+@cache_page(timeout=10,key_prefix="cacheRedis")
 def show_maps(request):
     ips = RobotKiller.objects.values_list('t_ip').annotate(Count('t_ip'))
     ipsdata = {

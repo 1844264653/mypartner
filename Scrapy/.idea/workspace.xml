@@ -1,177 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ea1514f-ff87-47c7-a1f8-527213b12778" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/git_item.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/.idea/Scrapy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/Twisted-18.7.0-cp36-cp36m-win_amd64.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/finalitem/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/finalitem/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/finalitem/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/finalitem/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/finalitem/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/finalitem/spiders/BosszpSpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/finalitem/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/finalitem/spiders/lagou.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/finalitem/scrapy.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/middlewares.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/pipelines.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/BaiduSpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/HeadersSpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/ImageSpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/ProxySpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/ShiXinRenSpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/ZLZhaopinSpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/00abf88df95010302a093ee46001c1ff5bea4d3c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/0775bbdedd50cd62a2784b57c7e553f08b483690.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/0803c866d43a2714993e6945115d791591c03313.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/0eb8ff1c1a57e8b3a5c6f948b2d64e431334ef31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/1023b40a1f1107ad9de3c543f25a974e84cf49f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/13744ef01d0ea54bb8589bfbb96607ebcbdc5514.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/13be447bc728d9a41b0bf933bac076a9cd55a12e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/13faaf9fa5b50b62a3bc52264a451aa61523dfda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/164d1cd1148e7bfca8a03c677de13d394a0ff9cb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/173fa6ef49ffa1abbe2ebc68847f66ee8b11452a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/195e3c0ad358ff4d716b0a4736ee71caa0fb5df5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/1dca6fe8c1140db84103ad58a4d4690d46080ffd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/1e1191ae515051d25fb518bca4da1c86bb7b4c14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/1efa54056bcaee46c44df5283430b7d89fcfac4b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/222b347eb6d51421e5cbd6fc75346d1b26bcc3e7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/26727e4e0d05b0954890785f874d0e2c65528c76.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/28c64a9daa0d97b107ac72d14d9077478a7dd21c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/28dec7c205e2b4066c315b6f700c2a558abe7602.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/2910217aea823aa4d1f8a40477693dc2fa02e8dc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/2b43c018135458d5b52df068a82b978c585b2d78.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/2be4462dd3f07648aea5e12d42a381784e24e5e8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/2c4baed3905eef0f2c2c9c8d3b28ff7d3d185941.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/2e597307c4cbe55a69388a81aa554b1d7560db17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/31c81852c6f976dda31cb8a0375cd361ee588b48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/325a7f69340234960bf161f1495cb2056d8c5c37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/32780ed19d5875d9d4e9b8108672cae4ab01506c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/32d5892bf5bc4324cba4f8b88be3dfab9d1bc067.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/333e88bc756d59e32281da6688b61e744dbd6f2d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/336f6fbc81ca68d76e6cee56e9b993b96426c8ec.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/34709286579035f7e825cd932b2c6a1e6d754ce0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/37eae7cf8c2a7440eb953072372aab01c167b761.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/3d143aab7f6a071efbebff193722dc15146816aa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/4059dadf914bb0e7fc1e62884cbfa3c973700f1b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/41d7ba0b14dd07674e121edffcaf4129d71c8b22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/437c9ef5693b1a38522d1c95946b587ccba7d066.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/473d2d204cac91631260c08ea501d936eb718f65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/4f1c1dc73645a4809361ce31c6f9e526df015c41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/4f6935e07eb5ca5d2bf3aa9268f947fb489ef06f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/5167f39e7f7d76e2a0bcdbe4e0a6cda27ee1cd97.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/5189b1418992446fcdfba7064cf53509a09629f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/524d05c1cd0162fd1d609834a3ca1c618a326456.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/52e47795ba159e756f3a190e0352d565cb6b3166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/554561d9d73025df9e6d5cb8d8e829f3779ad35a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/5762ebd8c463430564ccec07e866fba2c94a1ac2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/58b97ee113fa9b0dd9a57bf33c1cd72f8b7f2932.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/58fbff1dc4438573fb3cde3f79db5397a69f14a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/595e6eb495ac66217bab1f76a7bb933d21879ba0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/5d15f5ad27a1fa19efa11d5d478ae3428b902d89.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/5d227cadf6bd327f2c9be4f0317a52f065899f92.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/5da0bb7e0f324b543baa7297a2073034278ecb11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/62f15f6ff6215702ff3773c135e392a474e63290.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/640edf495f7805a26ace00c9ace42b7907845cf1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/661333fddab27440c960f6987723b629f0a7b683.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/686da2ab034f3c785cddd4ac2481d38bc961aa1a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/69fc65d4c11db45157a3e9e1e627894e3b2c9dcf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/6a4f1bd322fecaddc0e5ed2ad57e63911b473786.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/6f1f55e1437f610b953917e9598854eca1d5e86b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/6f997bf2b2c674a83b5f750be9ebb6b98d06f4c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/6f9bf387fdaea02298cec8802a6e64f7db427e8b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/70545d81be000b2a185b2003658452b99f18e4fd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/7252b18621645d820b5fc2ad53caff00fac5641a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/7368ead1984f82129a57bfd7cf9e926c9b6d9953.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/73ae98802877f48268cb641bb8362af34df7889f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/784224505120a726827fb29e19f5bd60cafeaa7e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/7d1ec94df42bebf827800567dbfd36c56fb81b63.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/7ea2cb86cec7d1162514607f25668c71f2f3d11a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/7ed1df33e13cce1c46e22421121a0025c7cf49c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/8201b2b64042b849c9f8616ea088644c83ce870c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/8c2dc6beb3e42b79af2e1255593a93344d4f9e59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/8d1dcd7ea5a62ad6651a5a1f10e2be9b7a2da28a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/8d898d991ff2c2f862afb14ff962ff3820450eba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/8ea46e9a097769b800a089d5df3df44febc09048.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/902644eb018315b3843ad5ff56d91bc53609291c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/9614b38fd182a2f1b2e4063183b8fec2a26be9ba.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/997e50473501e57edfbfed978fdb10239f45184a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/9b7fda3dc779196bf84c6789782231a2e4ba8735.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/9d3784be24db4cc4045f4ea200bf669c7c000989.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/a0cffd17093ea1f9cc46268e1e0c0d18721ee6ae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/a1b995630162b719e4e5802d56f0f2354dcb227b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/a86f5775fd7dcc72cff6443be05f8e8883dcfe97.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/a9fd2ae67e26b270c2ae12e6c31ce95098ac949d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/aaa87be9ff86f9e79d71ca8d2960af09d5a3bdfb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/aecfc227dd41d2c555362d864c6e702d8125f532.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/afa88f09ba43eae2f3307d3afa480a474ee96637.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/b33abd54dbe9c8c8b86e27cc122f5e312b1de28a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/b594b64c2cc7c78b647c2acb75ef064c6ed7d1e0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/b69ba32ea0b3b6cbb4f15d457f80f7a140afb7a5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/b6be21dab794693cb52ae82abbc7f6a04a60914d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/bbce5fe455d37ddb3f7ad21fb71bf58fd343843a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/bc5e94f6de24187d5261b5c19b50dfa70fe8e2fe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/bceb40550940082cca5213cb7cb52891af645393.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/bf0abe36ffd56f0a0b48639881d8ea71109d88f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/c237d7d90ac96f573e065ac05287bb1da1c94394.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/c38a3edfbec2c6101fa1c59bacd9d78da6349c7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/c6e42550da7d01c1b2b1dbe91da1cabeb8ad4d35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/c96f45aeffe576b2e93f666f1e0ebfe346a74dce.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/cbb430583612bbb6bc4c651f457cbe14287ee00e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/cf6a9866bde0ca14c951da95b9e59055a8c746f7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/d353f6ffd050d4178da06f9d11bb8ee157dad65c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/d3cd7d8b72591c3b7b8f6cf0bcd3ff1cb839483a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/d92731d95d95beb5217d3a7508e87247e2937fca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/d9ac0dc2493f0f5277d1a9377b623275cfda9bdb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/db661a62b6e91b21800e4cca90a91cb201d246d6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/ded8be49f7732a0ea040400e64f2f7ffbfa2d0a7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/e0d890cad05010c96044387045d9b5191ab2526d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/e1ff4ce1de14a50d3702beed78faad4a1c20babb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/e2772bdaa3e1b2cfb414a0aded892c95d5356698.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/e3ab573726ffffe2825b3036059f6f58168ff0c8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/e586914c9e4b06df84c922b4984e856b208215ab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/e81cdb9852f2286dcdfbd23dbff7ce5d463b9f3d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/eb4d96cdf0b773dc59c60596d4410046993f7079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/ec0099186ac8d06d66d36f7f733e5b5ff4651031.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/ee126d8cd247c4bcf4250b06f562e9196d2d57a5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/f46b80c19e57b76c51c70ffd3907bf4891ca9993.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/f5a0d7cdf95a4993b2e44c145c4fa51f7b384f40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/f669b02f4daf2322c5f4d3a37458b5166d18d615.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/faa0b53f2b5d7b35baa00821bbc9e21d4065c0b6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/fb3442434d0301bb9de70ab9bfce4fa3a307b3eb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/fe683c92b71c7c3ca62b45b2486e2dda5f873172.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/image/full/fef8d42d14a770938a7d9d6c422b6df002fd03dd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/myspider/spiders/zhipinhuiSpider.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/mysqlclient-1.3.13-cp36-cp36m-win_amd64.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pythonhomework/Scrapy/myspider/scrapy.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finaldjango/robotkiller/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/finaldjango/robotkiller/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finaldjango/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/finaldjango/templates/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finaldjango/userapp/ip_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/finaldjango/userapp/ip_crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finaldjango/userapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/finaldjango/userapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finaldjango/userapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/finaldjango/userapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finaldjango/userapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/finaldjango/userapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalitem/finalitem/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/finalitem/finalitem/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalitem/finalitem/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/finalitem/finalitem/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalitem/finalitem/spiders/lagou.py" beforeDir="false" afterPath="$PROJECT_DIR$/finalitem/finalitem/spiders/lagou.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finalitem/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/finalitem/run.py" afterDir="false" />
-    </list>
+    <list default="true" id="1ea1514f-ff87-47c7-a1f8-527213b12778" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,9 +12,9 @@
     <session id="-72745531">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -208,23 +38,14 @@
         </counts>
       </usages-collector>
     </session>
-    <session id="-34472057">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/finaldjango/userapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3296">
-              <caret line="210" column="32" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="32" />
+            <state relative-caret-position="1888">
+              <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -238,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finaldjango/robotkiller/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -251,9 +72,6 @@
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -281,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,7 +122,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,7 +172,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.12606232" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -377,13 +195,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/finaldjango/userapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3296">
-          <caret line="210" column="32" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/finaldjango/robotkiller/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -398,6 +209,13 @@
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finaldjango/userapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1888">
+          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
         </state>
       </provider>
     </entry>
